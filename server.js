@@ -12,8 +12,8 @@ const io = new Server(server);
 // --- Database Connection ---
 const db = mysql.createPool({
     host: 'localhost',
-    user: 'omdarshan', 
-    password: 'pass123', 
+    user: 'root', 
+    password: 'yourpassword', 
     database: 'chat_app', 
     waitForConnections: true,
     connectionLimit: 10,
